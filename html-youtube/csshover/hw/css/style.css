@@ -98,7 +98,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 30px;
-    margin-left: 290px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 123px;
     width: 547px;
     height: 163px;
@@ -155,7 +156,8 @@ body {
     width: 199px;
     height: 44px;
     padding: 10px 10px 10px 10px;
-    margin-left: 400px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -180,12 +182,14 @@ body {
 }
 
 .textinput {
+    display: block;
     padding: 10px;
     margin-top: 50px;
-    margin-left: 355px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 292px;
+    width: 305px;
     height: 50px;
     border: 1px solid rgba(176, 176, 176, 1);
 }

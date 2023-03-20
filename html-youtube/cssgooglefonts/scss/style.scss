@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: 'Allyson Pro';
+    src: url('../fonts/P22\ Allyson\ Pro.eot');
+    src: local('☺'), url('../fonts/P22\ Allyson\ Pro.woff') format('woff'), url('../fonts/P22\ Allyson\ Pro.ttf') format('truetype'), url('../fonts/P22\ Allyson\ Pro.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import "nullstyle.scss";
+.textoriginal {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0px 0px 30px 0px;
+    p {
+        margin: 0px 0px 30px 0px;
+    }
+}
+.text{
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-style: italic;
+    line-height: 35px;
+    p{
+        margin: 0px 0px 30px 0px;
+    }
+}
+.text2 {
+    font-family: "Allyson Pro";
+    font-size: 70px;
+    font-style: italic;
+    line-height: 35px;
+
+    p {
+        margin: 0px 0px 30px 0px;
+    }
+}
